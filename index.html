@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WPU Animated Slider</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500,900;1,100;1,400;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+    <div class="slider">
+      <div class="list">
+        <div class="item">
+          <img src="img/1.jpg" alt="Image 1" />
+          <div class="detail">
+            <div class="title">Dota 2</div>
+            <div class="name">Centaur Warruner</div>
+            <figure>
+              <img src="img/avatar/1.png" alt="avatar 1" />
+              <figcaption>
+                Durable / Initiator / Disabler / Nuker / Escape
+              </figcaption>
+            </figure>
+            <div class="desc">
+              Born in the Bleeding Hills, Rhasta was just a starving youngling
+              when picked up by a travelling con-man.
+            </div>
+            <a href="#" class="more">More details &raquo;</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/2.jpg" alt="Image 2" />
+          <div class="detail">
+            <div class="title">Dota 2</div>
+            <div class="name">Dragon Knight</div>
+            <figure>
+              <img src="img/avatar/2.png" alt="avatar 2" />
+              <figcaption>
+                Cary / Pusher / Durable / Disabler / Initiator / Nuker
+              </figcaption>
+            </figure>
+            <div class="desc">
+              Davion is the Dragon Knight, a title that represents both his
+              occupation and his dual nature.
+            </div>
+            <a href="#" class="more">More details &raquo;</a>
+          </div>
+        </div>
+      </div>
+      <div class="thumbnail">
+        <div class="item">
+          <img src="img/1.jpg" alt="thumbnail 1" />
+          <div class="detail">
+            <div class="name">Centaur Warruner</div>
+            <blockquote>"The hoofbeats of your heart beat no more."</blockquote>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/2.jpg" alt="thumbnail 2" />
+          <div class="detail">
+            <div class="name">Dragon Knight</div>
+            <blockquote>"Live by the sword, die by the dragon."</blockquote>
+          </div>
+        </div>
+      </div>
+      <div class="arrows">
+        <button id="prev">&lt;</button>
+        <button id="next">&gt;</button>
+      </div>
+      <div class="loading-bar"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
